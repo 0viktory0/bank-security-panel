@@ -14,7 +14,7 @@ def passcard_info_view(request, passcode):
                 'is_strange': is_visit_long(visit, minutes=60)
             },
         )
-       
+
         context = {
             'passcard': passcard,
             'this_passcard_visits': this_passcard_visits
